@@ -25,7 +25,7 @@ def perform_calculation(x, y, op):
         return divide(x, y)
 
 def main():
-    st.title("welcome to Ali's Calculator")
+    st.title("Welcome to Ali's Calculator")
 
     num1 = st.number_input("Enter the first number:", format="%.2f")
     num2 = st.number_input("Enter the second number:", format="%.2f")
@@ -42,5 +42,6 @@ def main():
     if st.button("Quit"):
         st.stop()
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
+
